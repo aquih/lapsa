@@ -3,7 +3,7 @@ from odoo import api, models
 from odoo.addons.l10n_gt_extra import a_letras
 
 class ReportAbstractPayment(models.AbstractModel):
-    _name = 'inmobiliarialap.abstract.reporte_account_payment'
+    _name = 'lapsa.abstract.reporte_account_payment'
 
     def totales(self, o):
         t = {'debito': 0, 'credito': 0}
@@ -34,9 +34,9 @@ class ReportAbstractPayment(models.AbstractModel):
         }
 
 class ReportPayment1(models.AbstractModel):
-    _name = 'report.inmobiliarialap.reporte_account_payment1'
-    _inherit = 'inmobiliarialap.abstract.reporte_account_payment'
+    _name = 'report.lapsa.reporte_account_payment1'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
 
 class ReportPayment2(models.AbstractModel):
-    _name = 'report.inmobiliarialap.reporte_account_payment2'
-    _inherit = 'inmobiliarialap.abstract.reporte_account_payment'
+    _name = 'report.lapsa.reporte_account_payment2'
+    _inherit = 'lapsa.abstract.reporte_account_payment'

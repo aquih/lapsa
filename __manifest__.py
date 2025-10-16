@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 {
     'name': 'Inmobiliaria Lap',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Custom',
     'description': """ Inmobiliaria Lap """,
     'author': 'aquíH',

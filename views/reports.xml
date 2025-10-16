@@ -2,22 +2,22 @@
 <odoo>
     <data>
 
-        <record id="inmobiliarialap_action_report_payment1" model="ir.actions.report">
+        <record id="lapsa_action_report_payment1" model="ir.actions.report">
             <field name="name">Voucher G&amp;T Q</field>
             <field name="model">account.payment</field>
             <field name="report_type">qweb-pdf</field>
-            <field name="report_name">inmobiliarialap.reporte_account_payment1</field>
-            <field name="report_file">inmobiliarialap.reporte_account_payment1</field>
+            <field name="report_name">lapsa.reporte_account_payment1</field>
+            <field name="report_file">lapsa.reporte_account_payment1</field>
             <field name="binding_model_id" ref="account.model_account_payment"/>
             <field name="binding_type">report</field>
         </record>
 
-        <record id="inmobiliarialap_action_report_payment2" model="ir.actions.report">
+        <record id="lapsa_action_report_payment2" model="ir.actions.report">
             <field name="name">Voucher G&amp;T $</field>
             <field name="model">account.payment</field>
             <field name="report_type">qweb-pdf</field>
-            <field name="report_name">inmobiliarialap.reporte_account_payment2</field>
-            <field name="report_file">inmobiliarialap.reporte_account_payment2</field>
+            <field name="report_name">lapsa.reporte_account_payment2</field>
+            <field name="report_file">lapsa.reporte_account_payment2</field>
             <field name="binding_model_id" ref="account.model_account_payment"/>
             <field name="binding_type">report</field>
         </record>
