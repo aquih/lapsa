@@ -3,7 +3,7 @@
     <data>
 
         <record id="lapsa_action_report_payment1" model="ir.actions.report">
-            <field name="name">Voucher G&amp;T Q</field>
+            <field name="name">Voucher G&T Q INDULOGIC</field>
             <field name="model">account.payment</field>
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">lapsa.reporte_account_payment1</field>
