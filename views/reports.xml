@@ -3,7 +3,7 @@
     <data>
 
         <record id="lapsa_action_report_payment1" model="ir.actions.report">
-            <field name="name">Voucher G&T Q INDULOGIC</field>
+            <field name="name">Voucher G&amp;T Q INDULOGIC</field>
             <field name="model">account.payment</field>
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">lapsa.reporte_account_payment1</field>
@@ -13,11 +13,91 @@
         </record>
 
         <record id="lapsa_action_report_payment2" model="ir.actions.report">
-            <field name="name">Voucher G&T $ INDULOGIC</field>
+            <field name="name">Voucher G&amp;T $ INDULOGIC</field>
             <field name="model">account.payment</field>
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">lapsa.reporte_account_payment2</field>
             <field name="report_file">lapsa.reporte_account_payment2</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment3" model="ir.actions.report">
+            <field name="name">Voucher 3</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment3</field>
+            <field name="report_file">lapsa.reporte_account_payment3</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment4" model="ir.actions.report">
+            <field name="name">Voucher 4</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment4</field>
+            <field name="report_file">lapsa.reporte_account_payment4</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment5" model="ir.actions.report">
+            <field name="name">Voucher 5</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment5</field>
+            <field name="report_file">lapsa.reporte_account_payment5</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment6" model="ir.actions.report">
+            <field name="name">Voucher 6</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment6</field>
+            <field name="report_file">lapsa.reporte_account_payment6</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment7" model="ir.actions.report">
+            <field name="name">Voucher 7</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment7</field>
+            <field name="report_file">lapsa.reporte_account_payment7</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment8" model="ir.actions.report">
+            <field name="name">Voucher 8</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment8</field>
+            <field name="report_file">lapsa.reporte_account_payment8</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment9" model="ir.actions.report">
+            <field name="name">Voucher 9</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment9</field>
+            <field name="report_file">lapsa.reporte_account_payment9</field>
+            <field name="binding_model_id" ref="account.model_account_payment"/>
+            <field name="binding_type">report</field>
+        </record>
+
+        <record id="lapsa_action_report_payment10" model="ir.actions.report">
+            <field name="name">Voucher 10</field>
+            <field name="model">account.payment</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">lapsa.reporte_account_payment10</field>
+            <field name="report_file">lapsa.reporte_account_payment10</field>
             <field name="binding_model_id" ref="account.model_account_payment"/>
             <field name="binding_type">report</field>
         </record>
