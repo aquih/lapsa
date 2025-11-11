@@ -40,3 +40,35 @@ class ReportPayment1(models.AbstractModel):
 class ReportPayment2(models.AbstractModel):
     _name = 'report.lapsa.reporte_account_payment2'
     _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment3(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment3'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment4(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment4'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment5(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment5'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment6(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment6'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment7(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment7'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment8(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment8'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment9(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment9'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
+
+class ReportPayment10(models.AbstractModel):
+    _name = 'report.lapsa.reporte_account_payment10'
+    _inherit = 'lapsa.abstract.reporte_account_payment'
